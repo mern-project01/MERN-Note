@@ -5,8 +5,8 @@ function App() {
 
   return (
     <>
-      <h1>
-        hello
+      <h1 className='text-8xl text-yellow-400 text-center '>
+        we are ready to go 
       </h1>
         
     </>

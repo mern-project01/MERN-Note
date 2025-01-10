@@ -1,13 +1,15 @@
 
 import './App.css'
-
+import Props from './componets/props'
 function App() {
-
+ const design={
+   'color':"red"
+ }
   return (
     <>
-      <h1 className='text-8xl text-yellow-400 text-center '>
-        we are ready to go 
-      </h1>
+     
+      
+      <Props design="design" name="st"></Props>
         
     </>
   )
